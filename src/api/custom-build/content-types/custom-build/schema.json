@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "custom_builds",
+  "info": {
+    "singularName": "custom-build",
+    "pluralName": "custom-builds",
+    "displayName": "Custom-build",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "product": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::product.product"
+    }
+  }
+}

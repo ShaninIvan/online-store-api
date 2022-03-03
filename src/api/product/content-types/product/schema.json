@@ -1,0 +1,81 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "Product",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "price": {
+      "type": "decimal",
+      "required": true,
+      "default": 0,
+      "min": 0
+    },
+    "inStock": {
+      "type": "integer",
+      "required": true,
+      "min": 0,
+      "default": 0
+    },
+    "code": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.image"
+    },
+    "specs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "product.specs"
+    },
+    "details": {
+      "type": "component",
+      "repeatable": true,
+      "component": "product.details"
+    },
+    "rating": {
+      "type": "component",
+      "repeatable": false,
+      "component": "product.rating"
+    },
+    "category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::category.category"
+    },
+    "brand": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::brand.brand"
+    },
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "white",
+        "black",
+        "red",
+        "blue"
+      ]
+    }
+  }
+}

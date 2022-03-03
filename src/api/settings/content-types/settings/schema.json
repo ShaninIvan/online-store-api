@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "settingss",
+  "info": {
+    "singularName": "settings",
+    "pluralName": "settingss",
+    "displayName": "settings"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "discount": {
+      "type": "integer",
+      "min": 0,
+      "max": 99,
+      "required": true,
+      "default": 0
+    },
+    "contacts": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings.contacts"
+    }
+  }
+}

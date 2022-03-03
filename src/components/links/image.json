@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_links_images",
+  "info": {
+    "displayName": "Image onthe.io",
+    "icon": "palette",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "imageUrl": {
+      "type": "string",
+      "required": true,
+      "regex": "^https:\\/\\/i.onthe.io\\/.+"
+    },
+    "imageAlt": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

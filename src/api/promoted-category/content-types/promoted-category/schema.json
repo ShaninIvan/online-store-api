@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "promoted_categories",
+  "info": {
+    "singularName": "promoted-category",
+    "pluralName": "promoted-categories",
+    "displayName": "Promoted-category",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::category.category"
+    }
+  }
+}

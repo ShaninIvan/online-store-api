@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_product_details",
+  "info": {
+    "displayName": "details",
+    "icon": "cogs"
+  },
+  "options": {},
+  "attributes": {
+    "detail": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

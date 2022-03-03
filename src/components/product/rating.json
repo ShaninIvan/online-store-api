@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_product_ratings",
+  "info": {
+    "displayName": "Rating",
+    "icon": "award"
+  },
+  "options": {},
+  "attributes": {
+    "one": {
+      "type": "integer",
+      "min": 0,
+      "required": true,
+      "default": 0
+    },
+    "two": {
+      "type": "integer",
+      "required": true,
+      "default": 0,
+      "min": 0
+    },
+    "three": {
+      "type": "integer",
+      "min": 0,
+      "required": true,
+      "default": 0
+    },
+    "four": {
+      "type": "integer",
+      "min": 0,
+      "default": 0,
+      "required": true
+    },
+    "five": {
+      "type": "integer",
+      "required": true,
+      "min": 0,
+      "default": 0
+    },
+    "reviews": {
+      "type": "integer",
+      "required": true,
+      "min": 0,
+      "default": 0
+    }
+  }
+}
