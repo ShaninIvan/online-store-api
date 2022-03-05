@@ -2,14 +2,15 @@
   "collectionName": "components_product_specs",
   "info": {
     "displayName": "specs",
-    "icon": "list-ul"
+    "icon": "list-ul",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "name": {
       "type": "string",
       "required": true,
-      "unique": true
+      "unique": false
     },
     "value": {
       "type": "string",
