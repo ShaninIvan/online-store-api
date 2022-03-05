@@ -20,7 +20,7 @@
     "sqlite3": "^5.0.2"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "A Strapi Developer"
   },
   "strapi": {
     "uuid": "6157f015-8fb9-4f04-88ec-9592e33b2c17"
