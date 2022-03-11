@@ -826,7 +826,10 @@
                                               "white",
                                               "black",
                                               "red",
-                                              "blue"
+                                              "blue",
+                                              "gray",
+                                              "silver",
+                                              "gold"
                                             ]
                                           },
                                           "createdAt": {
@@ -2014,7 +2017,10 @@
                                             "white",
                                             "black",
                                             "red",
-                                            "blue"
+                                            "blue",
+                                            "gray",
+                                            "silver",
+                                            "gold"
                                           ]
                                         },
                                         "createdAt": {
@@ -3120,7 +3126,10 @@
                                             "white",
                                             "black",
                                             "red",
-                                            "blue"
+                                            "blue",
+                                            "gray",
+                                            "silver",
+                                            "gold"
                                           ]
                                         },
                                         "createdAt": {
@@ -4217,7 +4226,10 @@
                                             "white",
                                             "black",
                                             "red",
-                                            "blue"
+                                            "blue",
+                                            "gray",
+                                            "silver",
+                                            "gold"
                                           ]
                                         },
                                         "createdAt": {
