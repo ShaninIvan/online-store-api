@@ -66,6 +66,12 @@
     "avatar": {
       "type": "string",
       "default": "https://i.onthe.io/smngoz4tc95trr9v5.964e1208.jpg"
+    },
+    "cart": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::cart.cart",
+      "inversedBy": "user"
     }
   }
 }
