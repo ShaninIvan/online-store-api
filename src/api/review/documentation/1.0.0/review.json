@@ -479,6 +479,7 @@
                                           "avatar": {
                                             "type": "string"
                                           },
+                                          "cart": {},
                                           "createdAt": {
                                             "type": "string",
                                             "format": "date-time"
@@ -1673,6 +1674,7 @@
                                         "avatar": {
                                           "type": "string"
                                         },
+                                        "cart": {},
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -2785,6 +2787,7 @@
                                         "avatar": {
                                           "type": "string"
                                         },
+                                        "cart": {},
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -3888,6 +3891,7 @@
                                         "avatar": {
                                           "type": "string"
                                         },
+                                        "cart": {},
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
