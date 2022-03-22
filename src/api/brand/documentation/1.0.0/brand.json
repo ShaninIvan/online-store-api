@@ -4,6 +4,7 @@
       "get": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -593,11 +594,12 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "get/brands"
       },
       "post": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -1083,6 +1085,7 @@
           "Brand"
         ],
         "parameters": [],
+        "operationId": "post/brands",
         "requestBody": {
           "required": true,
           "content": {
@@ -1108,6 +1111,7 @@
       "get": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -1604,11 +1608,12 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "get/brands/{id}"
       },
       "put": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -2105,6 +2110,7 @@
             }
           }
         ],
+        "operationId": "put/brands/{id}",
         "requestBody": {
           "required": true,
           "content": {
@@ -2169,6 +2175,7 @@
       "delete": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -2339,7 +2346,7 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "delete/brands/{id}"
       }
     }
   }

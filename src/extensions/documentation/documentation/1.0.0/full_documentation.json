@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-03-22T06:45:58.901Z"
+    "x-generation-date": "2022-03-22T08:10:52.862Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -54,6 +54,7 @@
       "get": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -643,11 +644,12 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "get/brands"
       },
       "post": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -1133,6 +1135,7 @@
           "Brand"
         ],
         "parameters": [],
+        "operationId": "post/brands",
         "requestBody": {
           "required": true,
           "content": {
@@ -1158,6 +1161,7 @@
       "get": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -1654,11 +1658,12 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "get/brands/{id}"
       },
       "put": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -2155,6 +2160,7 @@
             }
           }
         ],
+        "operationId": "put/brands/{id}",
         "requestBody": {
           "required": true,
           "content": {
@@ -2219,6 +2225,7 @@
       "delete": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -2389,13 +2396,14 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "delete/brands/{id}"
       }
     },
     "/carts": {
       "get": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -3304,11 +3312,12 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "get/carts"
       },
       "post": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -4113,6 +4122,7 @@
           "Cart"
         ],
         "parameters": [],
+        "operationId": "post/carts",
         "requestBody": {
           "required": true,
           "content": {
@@ -4177,6 +4187,7 @@
       "get": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -4992,11 +5003,12 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "get/carts/{id}"
       },
       "put": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -5812,6 +5824,7 @@
             }
           }
         ],
+        "operationId": "put/carts/{id}",
         "requestBody": {
           "required": true,
           "content": {
@@ -5874,6 +5887,7 @@
       "delete": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -6044,13 +6058,14 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "delete/carts/{id}"
       }
     },
     "/categories": {
       "get": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -6780,11 +6795,12 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "get/categories"
       },
       "post": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -7410,6 +7426,7 @@
           "Category"
         ],
         "parameters": [],
+        "operationId": "post/categories",
         "requestBody": {
           "required": true,
           "content": {
@@ -7435,6 +7452,7 @@
       "get": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -8071,11 +8089,12 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "get/categories/{id}"
       },
       "put": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -8712,6 +8731,7 @@
             }
           }
         ],
+        "operationId": "put/categories/{id}",
         "requestBody": {
           "required": true,
           "content": {
@@ -8804,6 +8824,7 @@
       "delete": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -8974,13 +8995,14 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "delete/categories/{id}"
       }
     },
     "/products": {
       "get": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -9849,11 +9871,12 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "get/products"
       },
       "post": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -10618,6 +10641,7 @@
           "Product"
         ],
         "parameters": [],
+        "operationId": "post/products",
         "requestBody": {
           "required": true,
           "content": {
@@ -10656,6 +10680,7 @@
       "get": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -11431,11 +11456,12 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "get/products/{id}"
       },
       "put": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -12211,6 +12237,7 @@
             }
           }
         ],
+        "operationId": "put/products/{id}",
         "requestBody": {
           "required": true,
           "content": {
@@ -12373,6 +12400,7 @@
       "delete": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -12543,13 +12571,14 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "delete/products/{id}"
       }
     },
     "/promoted-categories": {
       "get": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -13239,11 +13268,12 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "get/promoted-categories"
       },
       "post": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -13829,6 +13859,7 @@
           "Promoted-category"
         ],
         "parameters": [],
+        "operationId": "post/promoted-categories",
         "requestBody": {
           "required": true,
           "content": {
@@ -13892,6 +13923,7 @@
       "get": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -14488,11 +14520,12 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "get/promoted-categories/{id}"
       },
       "put": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -15089,6 +15122,7 @@
             }
           }
         ],
+        "operationId": "put/promoted-categories/{id}",
         "requestBody": {
           "required": true,
           "content": {
@@ -15150,6 +15184,7 @@
       "delete": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -15320,13 +15355,14 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "delete/promoted-categories/{id}"
       }
     },
     "/reviews": {
       "get": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -16596,11 +16632,12 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "get/reviews"
       },
       "post": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -17766,6 +17803,7 @@
           "Review"
         ],
         "parameters": [],
+        "operationId": "post/reviews",
         "requestBody": {
           "required": true,
           "content": {
@@ -17791,6 +17829,7 @@
       "get": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -18967,11 +19006,12 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "get/reviews/{id}"
       },
       "put": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -20148,6 +20188,7 @@
             }
           }
         ],
+        "operationId": "put/reviews/{id}",
         "requestBody": {
           "required": true,
           "content": {
@@ -20226,6 +20267,7 @@
       "delete": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -20396,13 +20438,14 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "delete/reviews/{id}"
       }
     },
     "/settings": {
       "get": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -21002,11 +21045,12 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "get/settings"
       },
       "put": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -21502,6 +21546,7 @@
           "Settings"
         ],
         "parameters": [],
+        "operationId": "put/settings",
         "requestBody": {
           "required": true,
           "content": {
@@ -21576,6 +21621,7 @@
       "delete": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -21735,13 +21781,14 @@
           "Settings"
         ],
         "parameters": [],
-        "requestBody": {}
+        "operationId": "delete/settings"
       }
     },
     "/terms": {
       "get": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -22320,11 +22367,12 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "get/terms"
       },
       "post": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -22799,6 +22847,7 @@
           "Term"
         ],
         "parameters": [],
+        "operationId": "post/terms",
         "requestBody": {
           "required": true,
           "content": {
@@ -22827,6 +22876,7 @@
       "get": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -23312,11 +23362,12 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "get/terms/{id}"
       },
       "put": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -23802,6 +23853,7 @@
             }
           }
         ],
+        "operationId": "put/terms/{id}",
         "requestBody": {
           "required": true,
           "content": {
@@ -23858,6 +23910,7 @@
       "delete": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -24028,13 +24081,14 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "delete/terms/{id}"
       }
     },
     "/email": {
       "post": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -24213,6 +24267,7 @@
           "Email"
         ],
         "parameters": [],
+        "operationId": "post/email",
         "requestBody": {
           "required": true,
           "content": {
@@ -24238,6 +24293,7 @@
       "post": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -24416,6 +24472,7 @@
           "Email"
         ],
         "parameters": [],
+        "operationId": "post/email/test",
         "requestBody": {
           "required": true,
           "content": {
@@ -24441,6 +24498,7 @@
       "get": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -24619,13 +24677,14 @@
           "Email"
         ],
         "parameters": [],
-        "requestBody": {}
+        "operationId": "get/email/settings"
       }
     },
     "/upload": {
       "post": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -25153,6 +25212,7 @@
           "Upload - file"
         ],
         "parameters": [],
+        "operationId": "post/upload",
         "requestBody": {
           "required": true,
           "content": {
@@ -25194,6 +25254,7 @@
       "get": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -25721,13 +25782,14 @@
           "Upload - file"
         ],
         "parameters": [],
-        "requestBody": {}
+        "operationId": "get/upload/files/count"
       }
     },
     "/upload/files": {
       "get": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -26359,13 +26421,14 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "get/upload/files"
       }
     },
     "/upload/files/{id}": {
       "get": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -26904,11 +26967,12 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "get/upload/files/{id}"
       },
       "delete": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -27079,7 +27143,7 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "delete/upload/files/{id}"
       }
     }
   }

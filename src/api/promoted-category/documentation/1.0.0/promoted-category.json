@@ -4,6 +4,7 @@
       "get": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -693,11 +694,12 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "get/promoted-categories"
       },
       "post": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -1283,6 +1285,7 @@
           "Promoted-category"
         ],
         "parameters": [],
+        "operationId": "post/promoted-categories",
         "requestBody": {
           "required": true,
           "content": {
@@ -1346,6 +1349,7 @@
       "get": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -1942,11 +1946,12 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "get/promoted-categories/{id}"
       },
       "put": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -2543,6 +2548,7 @@
             }
           }
         ],
+        "operationId": "put/promoted-categories/{id}",
         "requestBody": {
           "required": true,
           "content": {
@@ -2604,6 +2610,7 @@
       "delete": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -2774,7 +2781,7 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "delete/promoted-categories/{id}"
       }
     }
   }
