@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 module.exports = {
   /**
@@ -16,5 +16,16 @@ module.exports = {
    * This gives you an opportunity to set up your data model,
    * run jobs, or perform some special logic.
    */
-  bootstrap(/*{ strapi }*/) {},
+  bootstrap(/*{ strapi }*/) {
+    const {
+      afterCreate,
+      beforeDelete,
+    } = require("./extensions/users-permissions/content-types/user/lifecycles.js");
+
+    strapi.db.lifecycles.subscribe({
+      models: ["plugin::users-permissions.user"],
+      afterCreate,
+      beforeDelete,
+    });
+  },
 };
